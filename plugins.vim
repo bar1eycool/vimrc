@@ -24,6 +24,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 " Airline
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 if !exists('g:airline_symbols')
       let g:airline_symbols = {}
   endif
@@ -36,18 +37,15 @@ set laststatus=2
 let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline_theme='badwolf'
 
-Plugin 'vim-airline/vim-airline-themes'
 " Syntastic
 Plugin 'scrooloose/syntastic'
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
-
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 
@@ -97,7 +95,7 @@ filetype plugin indent on    " required
 " :PluginList       - lists configured plugins
 " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+" :PluginClean      - confirms removal of unused plugins; append `!` to ssuto-approve removal
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stu

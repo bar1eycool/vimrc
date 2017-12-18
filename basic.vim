@@ -26,26 +26,28 @@ set softtabstop=4
 set expandtab		"replace tab with whith spaces
 set tabstop=4
 set shiftwidth=4
-
 set linebreak
 set autoindent
+
 "set smartindent
 set ignorecase
 set number
 set scrolloff=3
-
 set cursorline
 set history=500
 set laststatus=2
+
 " enable folding
 set foldmethod=indent
 set foldlevel=99
+
 " Enable folding with the spacebar
 nnoremap <space> za
 
-
+" split
 set splitbelow
 set splitright
+
 "split navigations
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
@@ -69,5 +71,4 @@ EOF
 highlight BadWhitespace ctermbg=red guibg=red
 au BufRead,BufNewFile *.py,*.pyw match BadWhitespace /^\t\+/
 au BufRead,BufNewFile *.py,*.pyw,*.c,*.h,*.cpp match BadWhitespace /\s\+$/
-
 
