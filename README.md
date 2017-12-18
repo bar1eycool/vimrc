@@ -12,4 +12,4 @@ type the command in vim normal mode
     :source %
     :PluginInstall
 
-May have miss something.
+Might get buggy when building
