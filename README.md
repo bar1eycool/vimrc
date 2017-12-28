@@ -30,6 +30,7 @@
 You also need to install [molokai theme](https://github.com/tomasr/molokai), and [youcompletme](http://vimawesome.com/plugin/youcompleteme) by their instructions.
 
 type the follow commands in vim normal mode
+
     source %
     PluginInstall
 Might get buggy when building.
